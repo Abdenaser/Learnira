@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "658814034029",
+    "project_id": "learnira-5a17d",
+    "storage_bucket": "learnira-5a17d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658814034029:android:3845833fe9ee6c5ae09f64",
+        "android_client_info": {
+          "package_name": "ma.enset.learnira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658814034029-uba1j6evnhf9ob1cvnkhsop466u6lnli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_1f3yHnjqzEgrxOsXHx8d4LcWT0a5zvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658814034029-uba1j6evnhf9ob1cvnkhsop466u6lnli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
