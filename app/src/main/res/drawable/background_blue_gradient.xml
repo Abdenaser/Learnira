@@ -10,7 +10,6 @@
                 android:endColor="#2482FA"
                 android:angle="90"
                 />
-
         </shape>
     </item>
 </selector>
