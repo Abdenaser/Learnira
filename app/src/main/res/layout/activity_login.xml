@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/ubuntu_bold"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="#1A4D8B"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
         android:layout_height="48dp"
         android:backgroundTint="#256CC0"
         android:ems="10"
-        android:hint="User Name"
+        android:hint="@string/user_name"
         android:inputType="textPersonName"
         android:textColor="#2264B3"
         android:textColorHint="#2E80E2"
@@ -60,7 +60,7 @@
         android:layout_height="48dp"
         android:backgroundTint="#256CC0"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColorHint="#2E80E2"
@@ -89,14 +89,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#154073"
-            android:text="Sign up"
+            android:text="@string/sign_up"
             app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/login_btn"
             android:layout_width="114dp"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="@string/login"
             app:cornerRadius="10dp" />
 
     </TableRow>
@@ -106,7 +106,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#154073"
-        android:text="I am a teacher"
+        android:text="@string/i_am_a_teacher"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
