@@ -32,7 +32,7 @@
         android:layout_width="111dp"
         android:layout_height="148dp"
         android:contentDescription="@string/todo"
-        android:scrollbarTrackVertical="@drawable/Learnira512x512"
+        android:scrollbarTrackVertical="@drawable/learnira512x512"
         android:src="@drawable/learnira512x512"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
