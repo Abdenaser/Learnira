@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ui.login.LoginActivity"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="344dp"
+        android:layout_height="97dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/respoonce1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageViewQuestion"
+        android:layout_width="343dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/javalogo" />
+
+    <Button
+        android:id="@+id/responce_3"
+        android:layout_width="238dp"
+        android:layout_height="68dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="#EDEDED"
+        android:fontFamily="@font/ubuntu"
+        android:text="responce 3"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/responce2"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <Button
+        android:id="@+id/responce2"
+        android:layout_width="236dp"
+        android:layout_height="67dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="#EDEDED"
+        android:fontFamily="@font/ubuntu"
+        android:text="responce 2"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respoonce1"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <Button
+        android:id="@+id/respoonce1"
+        android:layout_width="231dp"
+        android:layout_height="64dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="#EDEDED"
+        android:fontFamily="@font/ubuntu"
+        android:text="responce 1"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

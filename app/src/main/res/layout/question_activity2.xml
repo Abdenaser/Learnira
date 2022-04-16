@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="384dp"
+        android:layout_height="637dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="737dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/question_number1"
+                        android:layout_width="153dp"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="50dp"
+                        android:text="Question N° : "
+
+                        android:textSize="22dp" />
+
+                    <EditText
+                        android:id="@+id/editTextQuestionnumber"
+                        android:layout_width="82dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="Note :" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_number1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Enoncé "
+                    android:textSize="22dp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextQuestionnumber"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginStart="1dpdp"
+                android:ems="10"
+                android:inputType="text"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_number1"
+                    android:layout_width="153dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="50dp"
+
+                    android:text="Choix N° :"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/editTextQuestionnumber"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#D8C625"
+                    android:fontFamily="@font/ubuntu"
+                    android:text="Précedent"
+                    app:cornerRadius="30dp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/buttonnext"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:fontFamily="@font/ubuntu"
+                    android:text="@string/suivant" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/question_number1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+
+                    android:text="Enoncé du choix "
+                    android:textAlignment="center"
+                    android:textSize="22dp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextQuestionnumber"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginStart="1dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#03FF4A"
+                    android:fontFamily="@font/ubuntu"
+                    android:text="Correct"
+                    app:cornerRadius="30dp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/buttonnext"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#EE2B36"
+                    android:fontFamily="@font/ubuntu"
+                    android:text="Incorrect"
+                    app:cornerRadius="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#114282"
+                    android:fontFamily="@font/ubuntu"
+                    android:text="Précedent"
+                    app:cornerRadius="30dp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/buttonnext"
+                    android:layout_width="125dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#114282"
+                    android:fontFamily="@font/ubuntu"
+                    android:text="Suivant"
+                    app:cornerRadius="30dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </TableRow>
+</androidx.constraintlayout.widget.ConstraintLayout>

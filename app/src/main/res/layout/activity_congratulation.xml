@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="373dp"
+            android:layout_height="599dp"
+            android:layout_marginTop="76dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="352dp"
+                android:layout_height="409dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="132dp"
+                android:background="@drawable/round_corner"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="412dp">
+
+                    <Button
+                        android:id="@+id/button_home_student"
+                        android:layout_width="134dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/btn_background2"
+                        android:text="Home"
+                        android:textColor="@color/white"
+                        android:textSize="28px"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.869" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="158dp"
+                        android:layout_height="38dp"
+                        android:fontFamily="@font/ubuntu"
+                        android:text="Congratulation"
+                        android:textColor="#114282"
+                        android:textSize="22dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.559"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.183" />
+
+                    <TextView
+                        android:id="@+id/TextViewScore"
+                        android:layout_width="158dp"
+                        android:layout_height="38dp"
+                        android:fontFamily="@font/ubuntu"
+                        android:text="Your Score is :"
+                        android:textColor="#114282"
+                        android:textSize="22dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.139"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/editTextNumber3"
+                        android:layout_width="110dp"
+                        android:layout_height="46dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        app:layout_constraintBottom_toTopOf="@+id/TextViewScore"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.548"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView7"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <EditText
+                        android:id="@+id/Score"
+                        android:layout_width="110dp"
+                        android:layout_height="46dp"
+                        android:layout_marginStart="7dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        app:layout_constraintBottom_toTopOf="@+id/button_signup"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@+id/TextViewScore"
+                        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3"
+                        app:layout_constraintVertical_bias="0.21" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="215dp"
+                android:layout_height="149dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/congratulation" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
